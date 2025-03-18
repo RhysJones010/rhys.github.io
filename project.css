@@ -1,0 +1,62 @@
+/* Reset margin and padding globally */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {background-color: transparent !important;}
+
+/* Apply purple background color to the body */
+html, body {
+    background-color: rgb(172, 161, 222) ;  /* Purple color */
+    font-family: "Century Gothic", "Helvetica Neue", Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Media Query for smaller screens (less than 460px) */
+@media screen and (max-width: 460px) {
+    body {
+        background-color: white; /* White color for smaller screens */
+    }
+}
+
+/* Black Header Section */
+.black-header {
+    background-color: black;
+    color: rgb(172, 161, 222);
+    width: 100%;
+    
+}
+
+/* Set up a row class for your layout (flex or grid) */
+.layout {
+    display: flex;
+}
+
+/* Style the h1 element for readability */
+h1 {
+    text-align: center;
+    color: rgb(172, 161, 222);
+    padding-top: 20px;
+}
+
+/* Ensure the header section (h3) is centered as well */
+h3 {
+    text-align: center;
+    color: rgb(172, 161, 222);
+}
+
+/* Optional: Styling for paragraphs to limit their width */
+p {
+    max-width: 500px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px; /* Adds some padding inside cells */
+    text-align: center; /* Centers the text inside cells */
+}
